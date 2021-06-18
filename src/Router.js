@@ -11,6 +11,7 @@ import Recruiment from "./screens/Recruiment";
 import Projects from "./screens/Projects";
 import Training from "./screens/Training";
 import Admin from "./screens/Admin";
+import Auth from "./screens/Auth";
 
 
 const Router = () => {
@@ -28,7 +29,7 @@ const Router = () => {
       <ProtectedRoute exact path="/projects" component={Projects} />
       <ProtectedRoute exact path="/training" component={Training} />
       <ProtectedRoute exact path="/admin" component={Admin} />
-
+      <Route exact path="/auth" component={Auth} />
     </Switch>
   );
 };
