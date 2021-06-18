@@ -23,7 +23,8 @@ const Router = () => {
       <ProtectedRoute exact path="/business" component={Business} />
       <ProtectedRoute exact path="/timesheet" component={TimeSheets} />
       <ProtectedRoute exact path="/assets" component={Assets} />
-      <ProtectedRoute exact path="/recruitment" component={Recruiment} />
+      <ProtectedRoute exact path="/recruitment" component={Assets} />
+      {/* <ProtectedRoute exact path="/recruitment" component={Recruiment} /> */}
       <ProtectedRoute exact path="/projects" component={Projects} />
       <ProtectedRoute exact path="/training" component={Training} />
       <ProtectedRoute exact path="/admin" component={Admin} />

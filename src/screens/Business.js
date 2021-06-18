@@ -99,6 +99,10 @@ export default function Employees() {
 
                 <Performance />
             </TabPanel>
+            <TabPanel value={value} index={4}>
+
+                <Performance />
+            </TabPanel>
         </div>
     );
 }
